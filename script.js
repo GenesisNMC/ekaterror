@@ -2,6 +2,47 @@ console.clear();
 
 //ghost repository
 let ghosts = [
+  "./images/Aleksandr Marinin.jpg",
+  "./images/Aleksandr Marinin.jpg",
+  "./images/Alvin Navarro.jpg",
+  "./images/Alvin Navarro.jpg",
+  "./images/Begum Sahin.jpg",
+  "./images/Begum Sahin.jpg",
+  "./images/Felicia Eijsink.jpg",
+  "./images/Felicia Eijsink.jpg",
+  "./images/Kamila Duda.jpg",
+  "./images/Kamila Duda.jpg",
+  "./images/Karel van Damme.jpg",
+  "./images/Karel van Damme.jpg",
+  "./images/Monika Godlewska.jpg",
+  "./images/Monika Godlewska.jpg",
+  "./images/Paul Seddon.jpg",
+  "./images/Paul Seddon.jpg",
+  "./images/Remy Aljadir.jpg",
+  "./images/Remy Aljadir.jpg",
+  "./images/Thomas de Vries.jpg",
+  "./images/Thomas de Vries.jpg",
+  "https://images.unsplash.com/photo-1601496319406-21021f4f60bd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYxOTE2NTU&ixlib=rb-4.0.3&q=80",
+  "https://images.unsplash.com/photo-1601496319406-21021f4f60bd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYxOTE2NTU&ixlib=rb-4.0.3&q=80",
+  "https://images.unsplash.com/photo-1521159961201-a60d22ec2011?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYxOTE2NTU&ixlib=rb-4.0.3&q=80",
+  "https://images.unsplash.com/photo-1521159961201-a60d22ec2011?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYxOTE2NTU&ixlib=rb-4.0.3&q=80",
+  "https://images.unsplash.com/photo-1604005938644-af0e58cc81e5?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYxOTE2NTU&ixlib=rb-1.2.1&q=80",
+  "https://images.unsplash.com/photo-1604005938644-af0e58cc81e5?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYxOTE2NTU&ixlib=rb-1.2.1&q=80",
+  "https://images.unsplash.com/photo-1634840647398-1aa05f9be788?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYxOTE4Njg&ixlib=rb-4.0.3&q=80",
+  "https://images.unsplash.com/photo-1634840647398-1aa05f9be788?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYxOTE4Njg&ixlib=rb-4.0.3&q=80",
+  "https://images.unsplash.com/photo-1465416532510-98090cdedec7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  "https://images.unsplash.com/photo-1465416532510-98090cdedec7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  "https://images.unsplash.com/photo-1634779837059-2a40ff00a947?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fGdob3N0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  "https://images.unsplash.com/photo-1634779837059-2a40ff00a947?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fGdob3N0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  "https://images.unsplash.com/photo-1619447019169-746572a5df47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  "https://images.unsplash.com/photo-1619447019169-746572a5df47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  "https://images.unsplash.com/photo-1603388074096-41a3ae655f8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=691&q=80",
+  "https://images.unsplash.com/photo-1603388074096-41a3ae655f8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=691&q=80"
+];
+
+/*original
+
+let ghosts = [
   "https://images.unsplash.com/photo-1635442022449-a1a21310158c?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYxOTE0MjA&ixlib=rb-4.0.3&q=80",
   "https://images.unsplash.com/photo-1584351829933-d0bbb3ae1f5a?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYxOTE0MjA&ixlib=rb-4.0.3&q=80",
   "https://images.unsplash.com/photo-1601496319406-21021f4f60bd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYxOTE2NTU&ixlib=rb-4.0.3&q=80",
@@ -39,8 +80,7 @@ let ghosts = [
   "https://images.unsplash.com/photo-1603388074096-41a3ae655f8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=691&q=80",
   "https://images.unsplash.com/photo-1619447019169-746572a5df47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
 ];
-
-
+*/
 
 //variables
 let tableCells = [];
