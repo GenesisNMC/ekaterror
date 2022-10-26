@@ -1,0 +1,32 @@
+body {
+  display: grid;
+  place-items: center;
+  background: black;
+  background-image: url('https://images.unsplash.com/photo-1513921092067-77d65e89cfa2?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYxOTQ2Nzg&ixlib=rb-4.0.3&q=80');
+  background-size: cover;
+  color: white;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  border-radius: 25px 0;
+  background: black;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 10px white;
+}
+
+em {
+  margin: 10px 0;;
+  width: 75%;
+  color: white;
+}
+
+td img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: -2px 0 -6px 0; /* please send css guides */
+  border-radius: 25px 0;
+}
